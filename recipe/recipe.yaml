@@ -12,10 +12,6 @@ package:
 source:
   url: https://github.com/BLAST-ImpactX/impactx/archive/${{ version }}.tar.gz
   sha256: 8dd1ba4ac87800c3e5860711dbfd715e3efbb4cccd5c1f8bcd47fce1dc886224
-  patches:
-    # SP test tolerance for the ChrAcc Ez=0 test
-    #   https://github.com/BLAST-ImpactX/impactx/pull/1614
-    - 1614.patch
 
 build:
   skip:
