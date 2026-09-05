@@ -76,7 +76,7 @@ requirements:
       then:
         - libblas 3.9.* *netlib
     # see requirements.txt
-    - pals-schema >=0.2.0,<0.3.0
+    - pals-schema >=0.3.0,<0.4.0
     - pyamrex ==${{ version }}[build=nompi_${{ impactx_precision }}_*]
     - python
     - scipy
